@@ -223,6 +223,22 @@
         font-size: 20px;
         font-weight: 300;
     }
+
+    @media screen and (max-width: 780px) {
+        display: block !important;
+        padding-left: 14px;
+        & > span {
+            display: inline;
+        }
+
+        & > span:nth-child(1),span:nth-child(2),span:nth-child(3) {
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (min-width: 790px) and (max-width: 980px) {
+        padding-left: 0;
+    }
 }
 
 .post-resume {
@@ -256,6 +272,14 @@
         font-family: 'Lato', sans-serif;
         font-weight: 400;
     }
+
+    @media screen and (max-width: 790px) {
+        padding-left: 14px;
+    }
+
+    @media screen and (max-width: 820px) {
+        padding-left: 5px;
+    }
 }
 
 .post-link {
@@ -283,6 +307,11 @@
 
     @include media-query($on-laptop) {
         font-size: 36px;
+    }
+
+    @media screen and (max-width: 780px) {
+        margin: 0;
+        clear: both;
     }
 }
 
