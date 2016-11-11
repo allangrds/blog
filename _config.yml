@@ -9,10 +9,10 @@ username: Allan Ramos
 user_description: Anon Developer at Lorem Ipsum Dolor
 user_title: Anon Developer
 email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+twitter_username: allangrds
+github_username:  allangrds
+gplus_username:  allangrds
+disqus_username: allan_ramos
 
 # Build settings
 markdown: kramdown
