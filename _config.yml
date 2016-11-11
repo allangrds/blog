@@ -7,8 +7,8 @@ url: "https://allangrds.github.io" # the base hostname & protocol for your site 
 # User settings
 username: Allan Ramos
 user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
+user_title: Desenvolvedor web
+email: allangabrielrds@gmail.com
 twitter_username: allangrds
 github_username:  allangrds
 gplus_username:  allangrds
@@ -33,11 +33,11 @@ links:
   - title: Home
     url: /
   - title: Series
-    url: /series
+    url: /blog/series
   - title: Tags
-    url: /tags
+    url: /blog/tags
   - title: About Me
-    url: /about
+    url: /blog/about
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
