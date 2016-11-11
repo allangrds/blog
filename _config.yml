@@ -31,12 +31,12 @@ compress_html:
 # For external links add external: true
 links:
   - title: Home
-    url: /
+    url: /blog
   - title: Series
     url: /blog/series
   - title: Tags
     url: /blog/tags
-  - title: About Me
+  - title: Sobre mim
     url: /blog/about
 
 # exclude my node related stuff
