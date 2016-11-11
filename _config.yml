@@ -1,7 +1,7 @@
 # Site settings
 title: Allan Ramos Blog
 description: "An Integrated Scientific Blogging Template"
-url: "https://projectpages.github.io"
+url: "https://allangrds.github.io"
 
 # Secondary Parameters
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
