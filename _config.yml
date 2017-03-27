@@ -23,7 +23,7 @@ url: "https://allangrds.github.io" # the base hostname & protocol for your site 
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/blog/" # the subpath of your site, e.g. /blog
 
 # Permalinks
 permalink: /:title
