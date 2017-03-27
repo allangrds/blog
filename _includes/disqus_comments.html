@@ -1,27 +1,19 @@
-{% if page.comments != false and jekyll.environment == "production" %}
-  <section class="comments">
-    <h3>Comments</h3>
-    <div id="disqus_thread"></div>
-</section>
+<div class="container" style="padding-right: 50px;padding-left: 50px;">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" id="disqus_thread">
+
+</div>
+</div>
+</div>
 <script type="text/javascript">
-    var disqus_loaded = false;
-    function load_disqus()
-    {
-        disqus_loaded = true;
-        var disqus_shortname = '{{site.disqus_username}}';
-        var disqus_title = '{{page.title.replace("'", "\\'")}}';
-        var disqus_url = '{{page.url}}';
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = '{{ site.disqus_shortname }}';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        var ldr = document.getElementById('disqus_loader');
-    };
-    window.onscroll = function(e) {
-        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
-            //hit bottom of page
-            if (disqus_loaded==false)
-                load_disqus()
-        }
-    };
+    })();
 </script>
-{% endif %}
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
