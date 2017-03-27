@@ -103,6 +103,11 @@ class: 'post-template'
 
 </main>
 
+
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
+
 <aside class="read-next">
 
     <!-- [[! next_post ]] -->{{ post.url | remove: '/' }}

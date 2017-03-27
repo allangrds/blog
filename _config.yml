@@ -8,7 +8,7 @@ language: 'en-uk'
 
 # Website info
 name: 'Allan Ramos'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+description: "Programação com um pouco de café."
 
 # Author's info
 author: 'Casper McFadden'
@@ -73,3 +73,7 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
+
+
+disqus:
+  shortname: allangrds
