@@ -2,7 +2,7 @@
 layout:     post
 cover:      false
 title:      Você deve blogar
-date:       2011-04-01 14:00:00
+date:       2017-04-01 14:00:00
 tags:       blog
 subclass:   'post'
 categories: 'Blog'
