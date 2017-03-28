@@ -9,6 +9,7 @@ categories: 'Blog'
 navigation: True
 logo:       'assets/images/ghost.png'
 cover:      'assets/images/cover1.jpg'
+visible:    1
 ---
 
 Inauguro meu blog com uma reflexão que venho fazendo há um tempo.
