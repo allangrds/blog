@@ -1,5 +1,6 @@
 ---
 layout: post
+cover: False
 title: Qual ferramenta de prototipagem escolher ?
 date: 2017-06-06 13:00:00
 tags: prototipação ferramentas ui
