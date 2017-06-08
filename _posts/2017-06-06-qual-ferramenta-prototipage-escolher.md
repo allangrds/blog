@@ -1,12 +1,13 @@
 ---
 layout: post
-cover: 'false'
 title: Qual ferramenta de prototipagem escolher ?
 date: 2017-06-06 13:00:00
 tags: prototipação ferramentas ui
 subclass: 'post tag-fiction'
 categories: 'ui prototipação'
 comments: true
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 A criação de um protótipo para nossa aplicação web ou mobile é fundamental. Com uma vastidão de softwares que propõem a mesma coisa, bate a pergunta: Qual deles escolher ?

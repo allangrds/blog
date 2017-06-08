@@ -1,12 +1,14 @@
 ---
 layout: post
-cover: 'false'
+cover: False
 title: Que fonte é essa ? – Como identificá-las
 date: 2017-06-22 13:00:00
 tags: prototipação ferramentas ui
 subclass: 'post tag-fiction'
 categories: 'ui prototipação'
 comments: true
+navigation: True
+logo: 'assets/images/ghost.png'
 ---
 
 Me diga que você nunca viu uns projetos com umas fontes muito lokas e ficou com inveja ? “Que fonte esse cara tá usando ?”. Bom… com esses sites é possível fazer o upload da imagem onde ela está e ele a identificará pra você. Não é maravilhoso ?
