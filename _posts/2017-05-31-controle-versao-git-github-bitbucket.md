@@ -19,19 +19,19 @@ Um sistema de **controle de versão**(nome auto-explicativo) tem o objetivo de g
 
 Dentre as muitas funções do **controle de versão** existem 3 que são características fundamentais:
 
-#####Ele salva seu histórico#####
+##### Ele salva seu histórico #####
 
 Qualquer alteração no projeto, aquela linha modificada, ele irá salvar a modificação. Isso ajuda muito para saber o que foi mudado de uma versão para outra.
 
-#####Você pode desenvovler versões diferentes#####
+##### Você pode desenvovler versões diferentes #####
 
 Os sistemas possuem **branches**(ramificações), permitindo que você crie versões diferentes do mesmo sistema sem afetar outros.
 
-#####Programar em paralelo#####
+##### Programar em paralelo #####
 
 Permiti que os desenvolvedores possam programar paralelamente sem haver alterações no código alheio.
 
-####Como funciona####
+#### Como funciona ####
 
 O projeto fica armazenada no servidor(repositório), onde ficam armazenados os históricos e modificações de cada versão. O desenvolvedor pode baixar a última versão e trabalha-la e posteriormente atualizar a versão contida no servidor.
 
@@ -41,19 +41,19 @@ Essa **sincronização** de arquivos entre a **estação de trabalho** e o **ser
 
 O **commit** envia o conjunto de arquivos alterados ao servidor, gerando um novo histórico de atualização. O **update** faz o inverso, mandando a última versão dele ao computador do desenvolvedor.
 
-####Controle de Versão Centralizado####
+#### Controle de Versão Centralizado ####
 
 Seguindo a **topologia em estrela**, existe **apenas um servidor** e **várias** cópias do projeto nas diversas **estações de trabalho**. Para haver comunicação entre as estações de trabalho, tal como a topologia, elas precisam passar pelo servidor.
 
 ![My helpful screenshot]({{ site.baseurl }}/assets/images/post/controle-de-versao-git-github-bitbucket/2.png)
 
-####Controle de Versão Distribuído####
+#### Controle de Versão Distribuído ####
 
 Nesse tipo de controle, cada **estação de trabalho** possui seu próprio “servidor”, onde faz as operações básicas de commit e update, além de cada estação de trabalho poder comunicar-se diretamente com a outra.
 
 ![My helpful screenshot]({{ site.baseurl }}/assets/images/post/controle-de-versao-git-github-bitbucket/3.png)
 
-####GIT####
+#### GIT ####
 
 GIT é um dos muitos sistemas para controle de versão. É rápido, possui um design simples, gratuito, fácil instalação, configuração e baixa curva de aprendizado.
 
@@ -69,7 +69,7 @@ Fork: Faz a cópia do repositório para outro repositório(Um projeto em uma con
 
 Merge: Junção de branches.
 
-####Github & Bitbucket####
+#### Github & Bitbucket ####
 
 Você já sabe pelo menos um pouco o que é controle de versão, conhece uma ferramenta pra isso, o Git, e agora conhecerá 2 repositórios para alocar seu projeto.
 

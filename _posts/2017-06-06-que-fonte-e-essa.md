@@ -21,6 +21,6 @@ Me diga que você nunca viu uns projetos com umas fontes muito lokas e ficou com
 
 [Flickr(Fonts in Use)](https://www.flickr.com/groups/fonts-in-use/) – Uma comunidade no Flickr onde os usuários ajudam-se, postando imagens com a fonte requerida, ao mesmo tempo que outros postagem seus nomes.
 
-####Outros Sites####
+#### Outros Sites ####
 
 [Identifont](http://www.identifont.com/) – Com este serviço você pode encontrar sua fonte respondendo algumas perguntas como nome, tipo, com qual fonte ela tem semelhança e quem a produziu.
