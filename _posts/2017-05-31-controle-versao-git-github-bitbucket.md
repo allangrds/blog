@@ -6,6 +6,7 @@ date: 2017-05-31 19:35:00
 tags: git controle-de-versionamento
 subclass: 'post tag-fiction'
 categories: 'controle de versionamento'
+comments: true
 ---
 
 Naquele curso técnico ou na graduação, todo iniciante já deu os seus “pulos de gato” para entregar o TCC. Programar paralelamente a um colega pode parecer uma ideia complicada. Você programa, manda a pasta pra ele, ele programa e te passa de novo. E seu eu dissesse que existe uma coisa chamada **controle de versionamento**, e que ela acabaria com esse dor de cabeça ?

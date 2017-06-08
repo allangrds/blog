@@ -6,6 +6,7 @@ date: 2017-06-22 13:00:00
 tags: prototipação ferramentas ui
 subclass: 'post tag-fiction'
 categories: 'ui prototipação'
+comments: true
 ---
 
 Me diga que você nunca viu uns projetos com umas fontes muito lokas e ficou com inveja ? “Que fonte esse cara tá usando ?”. Bom… com esses sites é possível fazer o upload da imagem onde ela está e ele a identificará pra você. Não é maravilhoso ?
@@ -19,4 +20,5 @@ Me diga que você nunca viu uns projetos com umas fontes muito lokas e ficou com
 [Flickr(Fonts in Use)](https://www.flickr.com/groups/fonts-in-use/) – Uma comunidade no Flickr onde os usuários ajudam-se, postando imagens com a fonte requerida, ao mesmo tempo que outros postagem seus nomes.
 
 ####Outros Sites####
+
 [Identifont](http://www.identifont.com/) – Com este serviço você pode encontrar sua fonte respondendo algumas perguntas como nome, tipo, com qual fonte ela tem semelhança e quem a produziu.

@@ -6,6 +6,7 @@ date: 2017-06-06 13:00:00
 tags: prototipação ferramentas ui
 subclass: 'post tag-fiction'
 categories: 'ui prototipação'
+comments: true
 ---
 
 A criação de um protótipo para nossa aplicação web ou mobile é fundamental. Com uma vastidão de softwares que propõem a mesma coisa, bate a pergunta: Qual deles escolher ?
