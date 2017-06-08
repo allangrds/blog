@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- [[! Page Meta ]] -->
+    <title>Controle de Versão,Git, Github e Bitbucket – Afinal, o que é tudo isso ?</title>
+    <meta name="description" content="Allan Ramos - Programação com um pouco de café." />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/blog/assets/images/favicon.ico" >
+
+    <!-- [[! Styles'n'Scripts ]] -->
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/syntax.css" />
+
+    <!-- [[! highlight.js ]] -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+        <link rel="canonical" href="/blog/" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="/blog/page2/" />
+
+    <meta property="og:site_name" content="Allan Ramos" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Allan Ramos" />
+    <meta property="og:description" content="Programação com um pouco de café." />
+    <meta property="og:url" content="/blog/" />
+    <meta property="og:image" content="/blog/assets/images/cover1.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Allan Ramos" />
+    <meta name="twitter:description" content="Programação com um pouco de café." />
+    <meta name="twitter:url" content="/blog/" />
+    <meta name="twitter:image:src" content="/blog/assets/images/cover1.jpg" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Finding The Way Home",
+    "url": "/blog/",
+    "image": "/blog/assets/images/cover1.jpg",
+    "description": "Programação com um pouco de café."
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="Allan Ramos" href="/blog/feed.xml" />
+
+
+</head>
+<body class="home-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home " role="presentation"><a href="/blog/">Home</a></li>
+        <li class="nav-about " role="presentation"><a href="/blog/about">About</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="/blog/feed.xml">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        <!-- [[! Everything else gets inserted here ]] -->
+        <!-- < default -->
+
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<header class="main-header post-head 
+         no-cover " 
+        >
+    <nav class="main-nav  clearfix">
+        <a class="blog-logo" href="/blog/"><img src="/blog/assets/images/ghost.png" alt="Blog Logo" /></a>
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-fiction">
+
+        <header class="post-header">
+            <h1 class="post-title">Controle de Versão,Git, Github e Bitbucket – Afinal, o que é tudo isso ?</h1>
+            <section class="post-meta">
+            <!-- <a href='/blog/'>Allan Ramos</a> -->
+            <time class="post-date" datetime="2017-05-31">31 May 2017</time>
+                <!-- [[tags prefix=" on "]] -->
+                 
+                on 
+                
+                    
+                       <a href='/blog/tag/git'>Git</a>,
+                       
+                
+                    
+                       <a href='/blog/tag/controle-de-versionamento'>Controle-de-versionamento</a>
+                       
+                
+                
+            </section>
+        </header>
+
+        <section class="post-content">
+            
+            <p>Naquele curso técnico ou na graduação, todo iniciante já deu os seus “pulos de gato” para entregar o TCC. Programar paralelamente a um colega pode parecer uma ideia complicada. Você programa, manda a pasta pra ele, ele programa e te passa de novo. E seu eu dissesse que existe uma coisa chamada <strong>controle de versionamento</strong>, e que ela acabaria com esse dor de cabeça ?</p>
+
+<h4 id="controle-de-verso">Controle de Versão</h4>
+
+<p>Um sistema de <strong>controle de versão</strong>(nome auto-explicativo) tem o objetivo de gerenciar diferentes versões de um mesmo projeto. É possível obter históricos das modificações, permitir que vários programadores trabalhem no mesmo projeto e permitir um comparativo entre várias versões do projeto.</p>
+
+<p>Dentre as muitas funções do <strong>controle de versão</strong> existem 3 que são características fundamentais:</p>
+
+<h5 id="ele-salva-seu-histrico">Ele salva seu histórico</h5>
+<p>Qualquer alteração no projeto, aquela linha modificada, ele irá salvar a modificação. Isso ajuda muito para saber o que foi mudado de uma versão para outra.</p>
+
+<h5 id="voc-pode-desenvovler-verses-diferentes">Você pode desenvovler versões diferentes</h5>
+<p>Os sistemas possuem <strong>branches</strong>(ramificações), permitindo que você crie versões diferentes do mesmo sistema sem afetar outros.</p>
+
+<h5 id="programar-em-paralelo">Programar em paralelo</h5>
+<p>Permiti que os desenvolvedores possam programar paralelamente sem haver alterações no código alheio.</p>
+
+<h4 id="como-funciona">Como funciona</h4>
+
+<p>O projeto fica armazenada no servidor(repositório), onde ficam armazenados os históricos e modificações de cada versão. O desenvolvedor pode baixar a última versão e trabalha-la e posteriormente atualizar a versão contida no servidor.</p>
+
+<p><img src="/blog//assets/images/post/controle-de-versao-git-github-bitbucket/1.png" alt="My helpful screenshot" /></p>
+
+<p>Essa <strong>sincronização</strong> de arquivos entre a <strong>estação de trabalho</strong> e o <strong>servidor</strong> é feito através dos comandos <strong>commit</strong> e <strong>update</strong>.</p>
+
+<p>O <strong>commit</strong> envia o conjunto de arquivos alterados ao servidor, gerando um novo histórico de atualização. O <strong>update</strong> faz o inverso, mandando a última versão dele ao computador do desenvolvedor.</p>
+
+<h4 id="controle-de-verso-centralizado">Controle de Versão Centralizado</h4>
+
+<p>Seguindo a <strong>topologia em estrela</strong>, existe <strong>apenas um servidor</strong> e <strong>várias</strong> cópias do projeto nas diversas <strong>estações de trabalho</strong>. Para haver comunicação entre as estações de trabalho, tal como a topologia, elas precisam passar pelo servidor.</p>
+
+<p><img src="/blog//assets/images/post/controle-de-versao-git-github-bitbucket/2.png" alt="My helpful screenshot" /></p>
+
+<h4 id="controle-de-verso-distribudo">Controle de Versão Distribuído</h4>
+
+<p>Nesse tipo de controle, cada <strong>estação de trabalho</strong> possui seu próprio “servidor”, onde faz as operações básicas de commit e update, além de cada estação de trabalho poder comunicar-se diretamente com a outra.</p>
+
+<p><img src="/blog//assets/images/post/controle-de-versao-git-github-bitbucket/3.png" alt="My helpful screenshot" /></p>
+
+<h4 id="git">GIT</h4>
+
+<p>GIT é um dos muitos sistemas para controle de versão. É rápido, possui um design simples, gratuito, fácil instalação, configuração e baixa curva de aprendizado.</p>
+
+<p>Segue abaixo alguns termos que você verá muitas vezes no terminal de comando e também de outros sistemas:</p>
+
+<p>Commit: Salvar alterações realizadas.</p>
+
+<p>Branch:  Cria uma nova ramificação do projeto – assim como em uma árvore -, permitindo seguir várias “linhas” diferentes de desenvolvimento para o mesmo projeto.</p>
+
+<p>Clone: Copiar um projeto já existente de algum repositório para sua estação de trabalho.</p>
+
+<p>Fork: Faz a cópia do repositório para outro repositório(Um projeto em uma conta do Github para outra conta).</p>
+
+<p>Merge: Junção de branches.</p>
+
+<h4 id="github--bitbucket">Github &amp; Bitbucket</h4>
+
+<p>Você já sabe pelo menos um pouco o que é controle de versão, conhece uma ferramenta pra isso, o Git, e agora conhecerá 2 repositórios para alocar seu projeto.</p>
+
+<p>Quem já procurou um pouco de projetos na internet percebeu que o Github aloca a maioria esmagadora deles. Abaixo citarei alguns diferenciais de cada repositório para você tirar suas conclusões:</p>
+
+<p>Github &amp; Bitbucket
+Você já sabe pelo menos um pouco o que é controle de versão, conhece uma ferramenta pra isso, o Git, e agora conhecerá 2 repositórios para alocar seu projeto.</p>
+
+<p>Quem já procurou um pouco de projetos na internet percebeu que o Github aloca a maioria esmagadora deles. Abaixo citarei alguns diferenciais de cada repositório para você tirar suas conclusões:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>Repositório Públic</td>
+      <td>Repositório Privado</td>
+      <td>Quantidade de Usuários</td>
+      <td>Preço</td>
+    </tr>
+    <tr>
+      <td>Github</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>4 milhões</td>
+      <td>Por 25 dólares até 10 repositório, tendo aumento variado até de 100 dólares.</td>
+    </tr>
+    <tr>
+      <td>Bitbucket</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>1 milhão</td>
+      <td>De graça até 5 repositórios. Com o aumento o preço pode variar de 10 até 200 dólares.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+        </section>
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+
+            
+            <figure class="author-image">
+                <a class="img" href="/blog/author/presto" style="background-image: url(/blog/assets/images/presto.png)"><span class="hidden">'s Picture</span></a>
+            </figure>
+            
+
+            <section class="author">
+                <h4><a href="/blog/author/presto">Allan Ramos</a></h4>
+                
+                
+                    <p> Um nerd caiçara que gosta de programar e também de outras aí.</p>
+                
+                <div class="author-meta">
+                    <span class="author-location icon-location"> São Paulo, Brasil</span> 
+                    <span class="author-link icon-link"><a href="https://allangrds.github.io"> </a></span> 
+                </div>
+            </section>
+
+            <!-- /author  -->
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=Controle de Versão,Git, Github e Bitbucket – Afinal, o que é tudo isso ?&amp;url=https://allangrds.github.iocontrole-versao-git-github-bitbucket"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://allangrds.github.iocontrole-versao-git-github-bitbucket"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://allangrds.github.iocontrole-versao-git-github-bitbucket"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+            
+        </footer>
+
+    </article>
+
+</main>
+
+
+
+  
+    <div class="post">
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+                this.page.url = 'https://allangrds.github.io/blog/controle-versao-git-github-bitbucket';
+                this.page.identifier = '/controle-versao-git-github-bitbucket';
+            };
+
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://allanramosblog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+        <a class="read-next-story no-cover" href="/blog/qual-ferramenta-prototipage-escolher">
+            <section class="post">
+                <h2>Qual ferramenta de prototipagem escolher ?</h2>
+                <p>A criação de um protótipo para nossa aplicação web ou mobile é fundamental. Com uma...</p>
+            </section>
+        </a>
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
+
+
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="/blog/">Allan Ramos</a> &copy; 2017</section>
+          <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
+        </footer>
+    </div>
+    <!-- [[! Ghost outputs important scripts and data with this tag ]] -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- [[! The main JavaScript file for Casper ]] -->
+    <script type="text/javascript" src="/blog/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/blog/assets/js/index.js"></script>
+
+    <!-- Add Google Analytics  -->
+        <!-- Google Analytics Tracking code -->
+     <script>
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	    ga('create', 'UA-69281367-1', 'auto');
+	    ga('send', 'pageview');
+
+     </script>   
+</body>
+</html>

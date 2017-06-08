@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Allan Ramos - Articles</title>
+    <description>Programação com um pouco de café.</description>
+    <link>
+    https://allangrds.github.io</link>
+    
+      
+      <item>
+        <title>Qual ferramenta de prototipagem escolher ?</title>
+        
+          <description>&lt;p&gt;A criação de um protótipo para nossa aplicação web ou mobile é fundamental. Com uma vastidão de softwares que propõem a mesma coisa, bate a pergunta: Qual deles escolher ?&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 06 Jun 2017 10:00:00 -0300</pubDate>
+        <link>
+        https://allangrds.github.io/qual-ferramenta-prototipage-escolher</link>
+        <guid isPermaLink="true">https://allangrds.github.io/qual-ferramenta-prototipage-escolher</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Controle de Versão,Git, Github e Bitbucket – Afinal, o que é tudo isso ?</title>
+        
+          <description>&lt;p&gt;Naquele curso técnico ou na graduação, todo iniciante já deu os seus “pulos de gato” para entregar o TCC. Programar paralelamente a um colega pode parecer uma ideia complicada. Você programa, manda a pasta pra ele, ele programa e te passa de novo. E seu eu dissesse que existe uma coisa chamada &lt;strong&gt;controle de versionamento&lt;/strong&gt;, e que ela acabaria com esse dor de cabeça ?&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 31 May 2017 16:35:00 -0300</pubDate>
+        <link>
+        https://allangrds.github.io/controle-versao-git-github-bitbucket</link>
+        <guid isPermaLink="true">https://allangrds.github.io/controle-versao-git-github-bitbucket</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

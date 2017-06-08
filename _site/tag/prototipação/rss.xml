@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title></title>
+   
+   <link>https://allangrds.github.io</link>
+   <description>Programação com um pouco de café.</description>
+   <language>pt-br</language>
+   <managingEditor> Allan Ramos</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Qual ferramenta de prototipagem escolher ?</title>
+	  <link>/blog//qual-ferramenta-prototipage-escolher</link>
+	  <author>Allan Ramos</author>
+	  <pubDate>2017-06-06T10:00:00-03:00</pubDate>
+	  <guid>/blog//qual-ferramenta-prototipage-escolher</guid>
+	  <description><![CDATA[
+	     <p>A criação de um protótipo para nossa aplicação web ou mobile é fundamental. Com uma vastidão de softwares que propõem a mesma coisa, bate a pergunta: Qual deles escolher ?</p>
+
+<p>Com base nessa pergunta que a Designer de Interação, Emily Schwartzman, colocou em sua página um grande comparativo entre diversos softwares de prototipagem. Você escolhe as funções que o software precisa ter e a lista é atualizada. Para visualizar a página, <a href="https://www.cooper.com/prototyping-tools?">clique aqui</a>.</p>
+
+<p><img src="/blog//assets/images/post/qual-ferramenta-prototipage-escolher/1.jpg" alt="My helpful screenshot" /></p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
