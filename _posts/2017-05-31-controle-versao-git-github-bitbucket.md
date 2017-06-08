@@ -13,19 +13,22 @@ logo: 'assets/images/ghost.png'
 
 Naquele curso técnico ou na graduação, todo iniciante já deu os seus “pulos de gato” para entregar o TCC. Programar paralelamente a um colega pode parecer uma ideia complicada. Você programa, manda a pasta pra ele, ele programa e te passa de novo. E seu eu dissesse que existe uma coisa chamada **controle de versionamento**, e que ela acabaria com esse dor de cabeça ?
 
-####Controle de Versão####
+#### Controle de Versão ####
 
 Um sistema de **controle de versão**(nome auto-explicativo) tem o objetivo de gerenciar diferentes versões de um mesmo projeto. É possível obter históricos das modificações, permitir que vários programadores trabalhem no mesmo projeto e permitir um comparativo entre várias versões do projeto.
 
 Dentre as muitas funções do **controle de versão** existem 3 que são características fundamentais:
 
 #####Ele salva seu histórico#####
+
 Qualquer alteração no projeto, aquela linha modificada, ele irá salvar a modificação. Isso ajuda muito para saber o que foi mudado de uma versão para outra.
 
 #####Você pode desenvovler versões diferentes#####
+
 Os sistemas possuem **branches**(ramificações), permitindo que você crie versões diferentes do mesmo sistema sem afetar outros.
 
 #####Programar em paralelo#####
+
 Permiti que os desenvolvedores possam programar paralelamente sem haver alterações no código alheio.
 
 ####Como funciona####
